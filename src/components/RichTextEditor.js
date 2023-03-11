@@ -5,8 +5,12 @@ const RichTextEditor = ({ setValue, config }) => {
   const editor = useRef(null);
 
   return (
-    <div>
-      <JoditEditor ref={editor} onChange={(content) => setValue(content)} config={config} />
+    <div className="RichTextEditor">
+      <JoditEditor
+        ref={editor}
+        onChange={(content) => setValue(content)}
+        config={config}
+      />
     </div>
   );
 };

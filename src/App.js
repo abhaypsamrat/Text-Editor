@@ -1,17 +1,14 @@
 import React, { useState } from "react";
 import RichTextEditor from "./components/RichTextEditor";
-import './App.css'
-
-// const config ={
-//   buttons : ["bold", "italic", "underline", "link", "unlink", "source"]
-// }
+import Header from "./components/Header";
+import "./App.css";
 
 function App() {
   const [value, setValue] = useState("");
 
   return (
     <div className="app">
-      <h2>Text Editor For Ful.io - Frontend Intern</h2>
+      <Header />
       <RichTextEditor setValue={setValue} />
       <div>{value}</div>
     </div>

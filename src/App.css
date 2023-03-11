@@ -1,3 +1,37 @@
-.jodit-status-bar__item jodit-status-bar__item-right{
-    visibility: hidden;
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: large;
+  font-family: "Roboto Slab", serif;
+}
+
+.header {
+  text-align: center;
+  background-color: black;
+  color: rgb(74, 226, 32);
+  height: 55px;
+  padding: 10px;
+
+  /* Hold the header in top of the screen */
+
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+  z-index: 10;
+}
+.header p {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.RichTextEditor {
+  margin: 20px;
+}
+
+@media (max-width: 720px) {
+  .header p {
+    font-size: 23px;
+    margin: 15px;
+  }
 }
