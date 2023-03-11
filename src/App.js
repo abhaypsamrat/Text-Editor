@@ -10,7 +10,8 @@ function App() {
     <div className="app">
       <Header />
       <TextEditor setValue={setValue} />
-      <div>{value}</div>
+      <p className="html-p">All content give as HTML form in below</p>
+      <div className="htmlForm">{value}</div>
     </div>
   );
 }

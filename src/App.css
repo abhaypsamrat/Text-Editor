@@ -28,10 +28,19 @@ body {
 .RichTextEditor {
   margin: 20px;
 }
-
+.html-p {
+  text-align: center;
+  margin-top: 50px;
+  text-decoration: underline;
+}
+.htmlForm {
+  border: 2px solid rgb(100, 198, 185);
+  margin: 20px;
+  padding: 5%;
+}
 
 /* hide jodit powered by */
-.jodit-status-bar-link{
+.jodit-status-bar-link {
   visibility: hidden;
 }
 
