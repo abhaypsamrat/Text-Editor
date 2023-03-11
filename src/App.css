@@ -29,6 +29,12 @@ body {
   margin: 20px;
 }
 
+
+/* hide jodit powered by */
+.jodit-status-bar-link{
+  visibility: hidden;
+}
+
 @media (max-width: 720px) {
   .header p {
     font-size: 23px;
