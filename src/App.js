@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import RichTextEditor from "./components/RichTextEditor";
+import TextEditor from "./components/TextEditor";
 import Header from "./components/Header";
 import "./App.css";
 
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <RichTextEditor setValue={setValue} />
+      <TextEditor setValue={setValue} />
       <div>{value}</div>
     </div>
   );
